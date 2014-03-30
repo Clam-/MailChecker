@@ -108,7 +108,6 @@ namespace MailChecker
 						remindsw.Stop();
 					}
 				}
-				throw new Exception();
 			}
 			logging.TraceEvent(TraceEventType.Information, 1, "Finishing worker thread.");
 		}
